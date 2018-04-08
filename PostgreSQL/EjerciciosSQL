@@ -1,1 +1,8 @@
 
+Para la parte de SQL, podéis hacer un script SQL. Suelen hacerse en un fichero que terminal en .sql.
+Los podéis incluir en un directorio de nombre sql  en vuestro repo. 
+Os propongo que hagáis un cruce entre los ficheros optd_airlines.csv, y el ref_nb_flights.csv,
+ambos incluidos en ~/Data/opentraveldata. Se trata de escribir una query que saque los mismos registros 
+que hay en el fichero ref..., con todas las columnas que tienen el fichero ref..., 
+pero además también con el nombre de la aerolínea (campo name) que está en el fichero optd_airlines.csv.
+Lo resolvimos en clase usando csvkit, ahora os propongo realizarlo en SQL.
